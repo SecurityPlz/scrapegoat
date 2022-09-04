@@ -18,24 +18,24 @@ scrapegoat.py takes in a json formatted file from the snscrape twitter-user api,
 
 Installation(tested on Pop_Os linux): 
 
-1.) Ensure that git is installed
-2.) Ensure that python3.8 or higher is installed
-3.) Ensure that pip is installed
+- [] Ensure that git is installed
+- [] Ensure that python3.8 or higher is installed
+- [] Ensure that pip is installed
 	sudo apt install python3-pip
-4.) Ensure snscrape is installed
+- [] Ensure snscrape is installed
 	sudo pip3 install snscrape
-5.) Create a directory for snscrape-output
+- [] Create a directory for snscrape-output
 	mkdir ~/snscrape-output
         cd ~/snscrape-output
-6.) Query the twitter-user api with the --jsonl flag and redirect the output to a file
+- [] Query the twitter-user api with the --jsonl flag and redirect the output to a file
         snsscrape --jsonl twitter-user foo > ~/snscrape-output/foo.out
-7.) Clone the repository for scrapegoat
+- [] Clone the repository for scrapegoat
 	git clone https://github.com/bellingcat/hackathon> 
-8.) Change directory to the tools new home
+- [] Change directory to the tools new home
 	cd ~/bellingcat-hackathon-1/scrapegoat
-9.) Feed our query from step 6 into scrapegoat
+- [] Feed our query from step 6 into scrapegoat
 	python3 ./scrapegoat.py < ~/snscrape-output/foo.out 
-10.) Repeat steps 6-9 as perscribed by your hackers intuition
+- [] Repeat steps 6-9 as perscribed by your hackers intuition
 
 
 Usage
