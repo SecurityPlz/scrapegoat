@@ -5,6 +5,7 @@ Team Members - Ryan, Matticus
 Member links: 
 
 Matticus:
+- [] https://twitter.com/securityplz
 - [] https://www.linkedin.com/in/mattic 
 - [] https://github.com/SecurityPlz
 
