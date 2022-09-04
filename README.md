@@ -5,8 +5,8 @@ Team Members - Ryan, Matticus
 Member links: 
 
 Matticus:
-https://www.linkedin.com/in/mattic 
-https://github.com/SecurityPlz
+- [] https://www.linkedin.com/in/mattic 
+- [] https://github.com/SecurityPlz
 
 Ryan:
 
@@ -21,20 +21,20 @@ Installation(tested on Pop_Os linux):
 - [] Ensure that git is installed
 - [] Ensure that python3.8 or higher is installed
 - [] Ensure that pip is installed
-	sudo apt install python3-pip
+- []	**sudo apt install python3-pip**
 - [] Ensure snscrape is installed
-	sudo pip3 install snscrape
+- []	**sudo pip3 install snscrape**
 - [] Create a directory for snscrape-output
-	mkdir ~/snscrape-output
-        cd ~/snscrape-output
+- []	**mkdir ~/snscrape-output**
+- []    **cd ~/snscrape-output**
 - [] Query the twitter-user api with the --jsonl flag and redirect the output to a file
-        snsscrape --jsonl twitter-user foo > ~/snscrape-output/foo.out
+- []    **snsscrape --jsonl twitter-user foo > ~/snscrape-output/foo.out**
 - [] Clone the repository for scrapegoat
-	git clone https://github.com/bellingcat/hackathon> 
+- []	**git clone https://github.com/SecurityPlz/scrapegoat.git** 
 - [] Change directory to the tools new home
-	cd ~/bellingcat-hackathon-1/scrapegoat
+- []	**cd ~/scrapegoat/scrapegoat**
 - [] Feed our query from step 6 into scrapegoat
-	python3 ./scrapegoat.py < ~/snscrape-output/foo.out 
+- []	**python3 ./scrapegoat.py < ~/snscrape-output/foo.out** 
 - [] Repeat steps 6-9 as perscribed by your hackers intuition
 
 
